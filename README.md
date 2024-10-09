@@ -1,52 +1,31 @@
-# Getting Started with Create React App
+# Interactive Kanban Board with React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is an interactive Kanban board application built using **React JS**. The app allows users to dynamically group and sort tasks (tickets) using data fetched from a remote API. Users can group tasks by status, user, or priority, and also sort them by priority or title. The app ensures persistence of the selected view state even after a page reload.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Group By Options:**
+  - Group tickets by their status.
+  - Group tickets by the assigned user.
+  - Group tickets by priority (Urgent, High, Medium, Low, No Priority).
+  
+- **Sort By Options:**
+  - Sort tickets in descending order of priority.
+  - Sort tickets in ascending order of their title.
 
-### `yarn start`
+- **Responsive Design:**
+  - The application adjusts the layout to display properly on different screen sizes.
+  
+- **Persistent State:**
+  - User's selected view state (grouping) is saved and remains even after a page reload using `localStorage`.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **API Integration:**
+  - Fetches task (ticket) data from the provided API endpoint.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
+### Grouping by User
+![Grouping by User](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/de6f9ade-433a-4185-a6df-4d396ea8be2d/Untitled.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Grouping by Priority
+![Grouping by Priority](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2f8e52ba-2b96-40e8-be6a-34e25dd240eb/Untitled.png)
 
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-## Preview
-
-![Desktop Screenshot 1](./preview/Desktop-1.png)
-![Desktop Screenshot 2](./preview/Desktop-2.png)
-![Mobile Screenshot 1](./preview/Mobile-1.png)
