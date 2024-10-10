@@ -24,8 +24,7 @@ This is an interactive Kanban board application built using **React JS**. The ap
 
 
 ### Grouping by User
-![Grouping by User](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/de6f9ade-433a-4185-a6df-4d396ea8be2d/Untitled.png)
-
+![QS1](https://github.com/user-attachments/assets/d2d96d94-d06c-4c94-b506-8c8bf658c8ca)
 ### Grouping by Priority
 ![Grouping by Priority](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2f8e52ba-2b96-40e8-be6a-34e25dd240eb/Untitled.png)
 
